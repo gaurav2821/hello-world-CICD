@@ -1,0 +1,8 @@
+stages:
+  - test
+
+test-job-example:
+  stage: test
+  script:
+    - echo "Testing the 'Hello World' app"
+
